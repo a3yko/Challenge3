@@ -1,0 +1,13 @@
+<ion-content class="card-background-page" class="no-scroll">
+    <ion-card routerLink="/businesses/{{getCity()}}/{{getBusiness()}}/{{newId()}}">
+        <div class="card-title">Add Review</div>
+      </ion-card>
+      <ion-card routerLink="/businesses/{{getCity()}}">
+        <div class="card-title">Back to Businesses</div>
+      </ion-card>
+      <ion-card *ngFor="let r of data" class="ion-padding">
+        <div class="card-title"> Author: {{ r.author }}</div>
+        <div class="card-subtitle"> Rating: {{ r.rating }}</div>
+        <div class="card-content-md"><p>{{r.text}}</p></div>
+      </ion-card>
+</ion-content>

@@ -1,0 +1,14 @@
+<ion-content class="card-background-page" class="no-scroll">
+      <ion-card routerLink="/businesses/{{getCity()}}/review/{{newId()}}">
+      <div class="card-title">Add Review</div>
+      </ion-card>
+      <ion-card routerLink="/">
+        <div class="card-title">Back to Cities</div>
+      </ion-card>
+      <ion-card routerLink="/businesses/{{getCity()}}/{{b.businessid}}" *ngFor="let b of data" class="ion-padding">
+        <div class="card-title">{{ b.name }}</div>
+        <div class="card-subtitle"> Services: {{ b.services }}</div>
+        <div class="card-subtitle"> Avg Rating: {{ getAvgReview(b.businessid) }} of 5.0 </div>
+        <div class="card-subtitle"> Total Reviews: {{ getReviews(b.businessid) }} </div> 
+      </ion-card>
+</ion-content>

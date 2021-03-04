@@ -1,0 +1,18 @@
+<form [formGroup]="review" (ngSubmit)="onSubmit()">
+        <ion-item>
+    <ion-label>Businesses</ion-label>
+    <ion-select formControlName="business">
+      <ion-select-option *ngFor="let b of businesses" [value]="b.businessid">{{b.name}}</ion-select-option>
+    </ion-select>
+     </ion-item>
+      <ion-item>
+        <ion-label class="card-title">Author: </ion-label><ion-input type="text" formControlName="author"></ion-input>
+      </ion-item>
+      <ion-item>
+           <ion-label class="card-title">Rating: </ion-label><ion-input type="number" formControlName="rating"></ion-input>
+     </ion-item>
+      <ion-item>
+        <ion-input type="textarea" formControlName="text"></ion-input>
+      </ion-item>
+      <button ion-button type="submit">Submit</button><button ion-button (click)="goBack()">Cancel</button>
+    </form>

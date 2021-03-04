@@ -1,0 +1,10 @@
+<ion-content class="card-background-page" class="no-scroll">
+      <ion-card routerLink="/businesses/{{c.cityid}}" *ngFor="let c of data" class="ion-padding">
+        <img src="../../../assets/{{ c.name }}.png" />
+        <div class="card-title">{{ c.name }}</div>
+        <div class="card-subtitle"> Businesses: {{ c.businesses.length }}</div>
+      </ion-card>
+      <ion-card>
+        <div class="card-title">Total Reviewed Businesses: {{ getTotalReviewed() }}</div>
+      </ion-card>
+</ion-content>

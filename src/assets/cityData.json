@@ -1,0 +1,20 @@
+[
+    {
+        "cityid": "wlRsEsXZ4orz2Omz",
+        "name": "Columbia",
+        "businesses": ["Cheddars", "Sophias", "University of Missouri", "Columbia Honda"],
+        "totalReviewed": 1
+    },
+    {
+        "cityid": "YSehJGuIXozD7XA0",
+        "name": "St. Louis",
+        "businesses": ["Cheesecake Factory", "The Pi", "Boeing", "Emersen", "Enterprise"],
+        "totalReviewed": 3
+    },
+    {
+        "cityid": "A0DyGqNaanhwo6O5",
+        "name": "Kansas City",
+        "businesses": ["Cerner", "Cerberus Crossfit", "Coldstone"],
+        "totalReviewed": 1
+    }
+]

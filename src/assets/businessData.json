@@ -1,0 +1,74 @@
+[
+    {
+        "businessid":"SxQaqIGwTRsuPnGT",
+        "name":"Sophias",
+        "city":"wlRsEsXZ4orz2Omz",
+        "services": ["Food", "Italian", "Homecooked Meals"]
+    },
+    {
+        "businessid":"5T0Nk1W5x99XSKPE",
+        "name":"Cerner",
+        "city":"A0DyGqNaanhwo6O5",
+        "services": ["Food", "Italian", "Homecooked Meals"]
+    },
+    {
+        "businessid":"rEAfOL81jQ6Xj6Hy",
+        "name":"University of Missouri",
+        "city":"wlRsEsXZ4orz2Omz",
+        "services": ["Education"]
+    },
+    {
+        "businessid":"uEU5EwZfDi0SG9Rd",
+        "name":"Cheddars",
+        "city":"wlRsEsXZ4orz2Omz",
+        "services": ["Food", "American", "Homecooked Meals"]
+    },
+    {
+        "businessid":"m9y5FrxpO12iTCVo",
+        "name":"Columbia Honda",
+        "city":"wlRsEsXZ4orz2Omz",
+        "services": ["Automotive", "Cars", "Parts"]
+    },
+    {
+        "businessid":"8SUrfhdtjWq2KUNo",
+        "name":"Cheesecake Factory",
+        "city":"YSehJGuIXozD7XA0",
+        "services": ["Food", "American", "Homecooked Meals"]
+    },
+    {
+        "businessid":"LKm8gjX0Hbb961fS",
+        "name":"The Pi",
+        "city":"YSehJGuIXozD7XA0",
+        "services": ["Food", "Italian", "Pizza"]
+    },
+    {
+        "businessid":"ySwgsMAaAB30AdKd",
+        "name":"Boeing",
+        "city":"YSehJGuIXozD7XA0",
+        "services": ["Engineering", "Design", "Planes"]
+    },
+    {
+        "businessid":"KRz1j0Gl67bzSomK",
+        "name":"Emersen",
+        "city":"YSehJGuIXozD7XA0",
+        "services": ["Electricity", "Batteries"]
+    },
+    {
+        "businessid":"w9OJ0bsIAHC0FVD8",
+        "name":"Enterprise",
+        "city":"YSehJGuIXozD7XA0",
+        "services": ["Car Rentals"]
+    },
+    {
+        "businessid":"bYtDlJ5FeRtH49UK",
+        "name":"Crossfit Cerberus",
+        "city":"A0DyGqNaanhwo6O5",
+        "services": ["Gym", "Personal Training"]
+    },
+    {
+        "businessid":"XG45BLBzSvZjJ9Wm",
+        "name":"Coldstone",
+        "services": ["Food", "Icecream", "Sweets"],
+        "city":"A0DyGqNaanhwo6O5"
+    }
+]
